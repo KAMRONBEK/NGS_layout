@@ -1,0 +1,268 @@
+* {
+    transition: 0.3s ease-in-out;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+}
+
+.grayer {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100vh;
+}
+
+.divider {
+    text-align: center;
+    border-bottom: 2px solid white;
+    width: 270px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.divider img {
+    transform: translateY(50%);
+}
+
+/* header */
+
+header {
+    background-image: url(../img/landing_bg.png);
+    background-size: cover;
+    display: block;
+    height: 100vh;
+}
+
+.navbar-brand {
+    padding-right: 150px;
+}
+
+.my-nav-bg * {
+    color: white !important;
+}
+
+.my-nav-bg {
+    padding-top: 20px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgba(red, green, blue, 0);
+}
+
+.my-nav-bg .nav-item {
+    padding-right: 55px;
+}
+
+.my-nav-bg .nav-item .nav-link {
+    font-size: 18px;
+    padding: 0;
+}
+
+.my-nav-bg .nav-item .nav-link:hover {
+    opacity: 0.6;
+}
+
+.my-nav-bg .nav-right {
+    padding-left: 125px;
+}
+
+.my-nav-bg .nav-right .nav-item {
+    padding: 0 10px;
+}
+
+/* landing */
+
+.landing {
+    transform: translateY(40%);
+    text-align: center;
+    color: white;
+}
+
+.landing h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+.landing p {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-bottom: 95px;
+    font-size: 28px;
+}
+
+.landing a {
+    font-size: 20px;
+    color: white;
+    padding: 13px 40px;
+    background-color: #4e6d59;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.landing a:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+/* about */
+
+.about {
+    background-image: url(../img/about_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about h1 {
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+.about .blog,
+.about .feed {
+    border-radius: 2px;
+    background-color: white;
+    margin-bottom: 25px;
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog {
+    width: 100%;
+}
+
+.blog h5 {
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.blog .blog-image {
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/About_img.png);
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+
+.blog .blog-image div {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    border: 2px solid white;
+}
+
+.blog .blog-image div:hover {
+    height: calc(100% + 6px);
+    width: calc(100% + 6px);
+    top: -3px;
+    left: -3px;
+}
+
+
+.blog-image img {
+    /* position: absolute; */
+}
+
+.blog .blog-image,
+.blog .text {
+    display: inline-block;
+}
+
+.blog .text {
+    width: 100% !important;
+    box-sizing: content-box;
+}
+
+.blog p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+
+.blog a {
+    border-radius: 2px;
+    background-color: #4e6d59;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+.blog a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.about .blog>div,
+.about .feed>div {
+    padding: 0 !important;
+}
+
+.about .blog {
+    /* height: 400px; */
+}
+
+.about .feed {
+    height: 130px;
+}
+
+.feed {
+    width: 100%;
+}
+
+.feed>div>div img {
+    margin: 0;
+}
+
+.feed>div>div {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    margin: 35px 80px;
+    height: 60px;
+    width: 275px;
+}
+
+.feed>div>div span h4,
+.feed>div>div span p {
+    margin: auto;
+}
+
+
+.feed>div>div img,
+.feed>div>div span {
+    display: inline-block;
+}
+
+.production {
+    background-image: url(../img/product_bg.png);
+    background-image: url(../img/about_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.production h1 {
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Russo One', sans-serif;
+}
